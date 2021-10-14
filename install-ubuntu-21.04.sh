@@ -2,15 +2,15 @@
 
 clear
 
-echo -e "\x1b[32m========================================"
+echo -e "\x1b[32m==========================================="
 
-echo -e "\x1b[32m    Installing Ubuntu 21.04 Hirsute Hippo    "
+echo -e "\x1b[32m   Installing Ubuntu 21.04 Hirsute Hippo    "
 
-echo -e "\x1b[32m========================================"
+echo -e "\x1b[32m==========================================="
 
 sleep 1
 
-folder="/data/local/ubuntu"
+folder="/data/local/Ubuntu-21.04"
 
 file="$folder/ubuntu-21.04-rootfs-$arch.tar.gz"
 
@@ -64,7 +64,7 @@ sleep 1
 
 echo -e "\x1b[33m [ Downloading Ubuntu 20.04.3 Rootfs $arch ... ]"
 
-wget https://github.com/fjunio97/Ubuntu-Chroot-Termux/raw/main/Ubuntu-20.04/ubuntu-20.04.3-rootfs-$arch.tar.gz
+wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/rootfs/Ubuntu_21.04/ubuntu-21.04-rootfs-$arch.tar.gz
 
 echo -e "\x1b[33m [ Downloaded ! ]"
 
@@ -110,8 +110,6 @@ usermod -g 3003 -G 3003,3004 -a _apt
 
 usermod -G 3003 -a root
 
-'
-
 sleep 1 && echo -e "\x1b[33m [ Done ! ]"
 
 sleep 1
@@ -120,6 +118,6 @@ echo -e "\x1b[32m [ Installation Completed,You can mount Ubuntu system ]"
 
 echo -e " [ Ubuntu is installed at $folder ]\e[0m"
 
-rm /data/local/ubuntu/ubuntu-21.04-rootfs-$arch.tar.gz
+rm /data/local/Ubuntu-21.04/ubuntu-21.04-rootfs-$arch.tar.gz
 
 sleep 1

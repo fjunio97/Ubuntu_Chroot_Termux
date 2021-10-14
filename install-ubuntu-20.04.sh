@@ -10,9 +10,9 @@ echo -e "\x1b[32m=================================="
 
 sleep 1
 
-folder="/data/local/ubuntu"
+folder="/data/local/Ubuntu-20.04-LTS"
 
-file="$folder/ubuntu-20.04.2-rootfs-$arch.tar.gz"
+file="$folder/ubuntu-20.04.3-rootfs-$arch.tar.gz"
 
 if [ -d "$folder" ];
 
@@ -64,7 +64,7 @@ sleep 1
 
 echo -e "\x1b[33m [ Downloading Ubuntu 20.04.3 Rootfs $arch ... ]"
 
-wget https://github.com/fjunio97/Ubuntu-Chroot-Termux/raw/main/Ubuntu-20.04/ubuntu-20.04.3-rootfs-$arch.tar.gz
+wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/rootfs/Ubuntu_20.04_LTS/ubuntu-20.04.3-rootfs-$arch.tar.gz
 
 echo -e "\x1b[33m [ Downloaded ! ]"
 
@@ -110,8 +110,6 @@ usermod -g 3003 -G 3003,3004 -a _apt
 
 usermod -G 3003 -a root
 
-'
-
 sleep 1 && echo -e "\x1b[33m [ Done ! ]"
 
 sleep 1
@@ -120,6 +118,6 @@ echo -e "\x1b[32m [ Installation Completed,You can mount Ubuntu system ]"
 
 echo -e " [ Ubuntu is installed at $folder ]\e[0m"
 
-rm /data/local/ubuntu/ubuntu-20.04.3-rootfs-$arch.tar.gz
+rm /data/local/Ubuntu-20.04-LTS/ubuntu-20.04.3-rootfs-$arch.tar.gz
 
 sleep 1
