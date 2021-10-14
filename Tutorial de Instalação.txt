@@ -1,0 +1,61 @@
+# Ubuntu-Chroot-Termux
+
+Requisitos: App Termux, Root e Módulo Busybox Magisk instalado
+
+TUTORIAL
+
+1- Baixe os 2 Scripts INSTALL e START de acordo com a Versão
+do Ubuntu que Você Quer Usar e logo copie os 2 para raiz da memória interna
+
+Exemplo Ubuntu 18.04.5 LTS => install-ubuntu-18.sh e start-18.sh
+Exemplo Ubuntu 20.04.2 LTS => install-ubuntu-20.sh e start-20.sh
+
+2- Abra o Termux e dê os comandos
+
+su
+cd /sdcard
+sh install-ubuntu-18.sh
+ou
+sh install-ubuntu-20.sh
+
+aguarde terminar!
+
+3- depois de terminar o processo de instalação, inicie o sistema com comando abaixo
+
+sh start-18.sh
+ou
+sh start-20.sh
+
+4- após iniciar o sistema de os comandos
+
+apt-get update -y && apt-get upgrade -y
+
+apt-get install git -y
+
+
+Se Quiser Compilar Kernel, Instale os Pacotes para Compilar Kernel a partir da Source
+
+apt install gcc-arm-linux-gnueabi gcc g++ python make libncurses5-dev ccache grep bc git build-essential -y
+
+apt-get install wget curl unzip zip axel
+
+apt-get install python && apt-get install libssl-dev
+
+
+
+OBS: Kernel Linux v4.14 Use Android Toolchain, Kernel Linux v4.4 use GCC
+
+Conjuntos de ferramentas para Construção de Kernel Usando o Hardware Android:
+GCC e AOSP Clang
+
+Observação: os conjuntos de ferramentas são construídos para funcionar em ambiente chroot/proot no Android
+
+Se a versão do kernel é 4.14 ou superior, prefira usar AOSP/LLVM Clang, versão anterior do kernel (<4.14) deve usar GCC
+
+Clang AOSP/LLVM:
+https://github.com/iHemal/AArch64_Clang/releases
+
+GCC:
+https://github.com/iHemal/prebuilt_gcc-4.9
+
+GCC tem ramos ARM, AARCH64, então selecione de acordo com a arquitetura do kernel.
