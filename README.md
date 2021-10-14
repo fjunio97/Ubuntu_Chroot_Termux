@@ -8,7 +8,6 @@ Requirements: Termux Fdroid, Root and the Installed Magisk Busybox Module
 👉 [Toolchain Android](https://github.com/fjunio97/Ubuntu-Chroot-Termux/blob/main/Toolchain-Android.md)
 
 ##### 📀 **INSTALL UBUNTU 20.04 LTS**
-
 ```
 pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start20.sh && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-20.04.sh && chmod +x start20.sh install-ubuntu-20.04.sh
 ```
@@ -19,11 +18,9 @@ su
 ```
 sh start20.sh
 ```
-
-======================================================
+=====================================
 
 ##### 📀 **INSTALL UBUNTU 21.04 Hirsute Hippo**
-
 ```
 pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start21.sh && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-21.04.sh && chmod +x start21.sh install-ubuntu-21.04.sh
 ```
@@ -34,8 +31,7 @@ su
 ```
 sh start21.sh
 ```
-
-======================================================
+=====================================
 
 ##### **BASIC PACKAGES**
 (git, axel, curl, wget, zip, unzip, p7zip-full, nano, bash, sudo, python3, brotli, libssl-dev, libxml2 libstdc++6)
