@@ -7,6 +7,7 @@ Requirements: Termux Fdroid, Root and the Installed Magisk Busybox Module
 
 👉 [Toolchain Android](https://github.com/fjunio97/Ubuntu-Chroot-Termux/blob/main/Toolchain-Android.md)
 
+
 ##### 📀 **INSTALL UBUNTU 20.04 LTS**
 ```
 pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start20.sh && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-20.04.sh && chmod +x start20.sh install-ubuntu-20.04.sh
