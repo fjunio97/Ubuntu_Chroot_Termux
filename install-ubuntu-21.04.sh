@@ -10,7 +10,7 @@ echo -e "\x1b[32m==========================================="
 
 sleep 1
 
-folder="/data/local/Ubuntu-21.04"
+folder="/data/data/com.termux/files/home/Ubuntu-21.04"
 
 file="$folder/ubuntu-21.04-rootfs-$arch.tar.gz"
 
@@ -118,6 +118,6 @@ echo -e "\x1b[32m [ Installation Completed,You can mount Ubuntu system ]"
 
 echo -e " [ Ubuntu is installed at $folder ]\e[0m"
 
-rm /data/local/Ubuntu-21.04/ubuntu-21.04-rootfs-$arch.tar.gz
+rm /data/data/com.termux/files/home/Ubuntu-21.04/ubuntu-21.04-rootfs-$arch.tar.gz
 
 sleep 1

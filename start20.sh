@@ -8,7 +8,7 @@ export USER=root
 export HOME=/root
 export LANGUAGE=C
 export LANG=C
-folder=/data/local/Ubuntu-20.04-LTS
+folder=/data/data/com.termux/files/home/Ubuntu-20.04
 echo -e "\x1b[33m [ Mounting system folders ]"
 echo "   [ Mounting /dev ... ]"
 busybox mount --bind /dev $folder/dev
