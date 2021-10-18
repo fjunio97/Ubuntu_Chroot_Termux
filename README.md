@@ -18,7 +18,7 @@ su
 ```
 sh install-ubuntu-20.04.sh
 ```
-##### 📲 **START UBUNTU 20.04 LTS**
+##### 📲 **START UBUNTU 20**
 ```
 sh start20.sh
 ```
@@ -33,7 +33,7 @@ su
 ```
 sh install-ubuntu-21.04.sh
 ```
-##### 📲 **START UBUNTU 21.04 HIRSUTE HIPPO**
+##### 📲 **START UBUNTU 21**
 ```
 sh start21.sh
 ```
