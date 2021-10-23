@@ -10,32 +10,32 @@ Requirements: Termux Fdroid, Root and the Installed Magisk Busybox Module
 =====================================
 ##### 📀 **INSTALL UBUNTU 20.04 LTS**
 ```
-pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start20.sh && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-20.04.sh && chmod +x start20.sh install-ubuntu-20.04.sh
+pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start20 && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-20.04 && chmod +x start20 install-ubuntu-20.04
 ```
 ```
 su
 ```
 ```
-sh install-ubuntu-20.04.sh
+sh install-ubuntu-20.04
 ```
 ##### 📲 **START UBUNTU 20**
 ```
-sh start20.sh
+sh start20
 ```
 =====================================
 ##### 📀 **INSTALL UBUNTU 21.04 HIRSUTE HIPPO**
 ```
-pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start21.sh && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-21.04.sh && chmod +x start21.sh install-ubuntu-21.04.sh
+pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start21 && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-21.04 && chmod +x start21 install-ubuntu-21.04
 ```
 ```
 su
 ```
 ```
-sh install-ubuntu-21.04.sh
+sh install-ubuntu-21.04
 ```
 ##### 📲 **START UBUNTU 21**
 ```
-sh start21.sh
+sh start21
 ```
 =====================================
 
