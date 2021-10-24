@@ -52,4 +52,4 @@ apt-get update -y && apt-get upgrade -y && apt install git-core axel curl wget z
 apt install gcc-arm-linux-gnueabi gcc g++ python make libncurses5-dev ccache grep bc build-essential -y
 ```
 
-Thanks https://github.com/mjuned47 for the scripts
+Thanks [mjuned47](https://github.com/mjuned47) for the scripts
