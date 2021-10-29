@@ -5,7 +5,7 @@ Requirements: Termux Fdroid, Root and the Installed Magisk Busybox Module
 ##### **LINKS**
 👉 [Termux F-Droid](https://f-droid.org/en/packages/com.termux/)
 
-👉 [Toolchain Android](https://github.com/fjunio97/Ubuntu-Chroot-Termux/blob/main/Toolchain-Android.md)
+👉 [Toolchain Android](https://github.com/iHemal/AArch64_Clang/releases)
 
 Thanks [mjuned47](https://github.com/mjuned47) for the scripts
 
