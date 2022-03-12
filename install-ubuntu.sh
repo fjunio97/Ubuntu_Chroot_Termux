@@ -12,7 +12,7 @@ sleep 1
 
 folder="/data/data/com.termux/files/home/ubuntu-20.04"
 
-file="$folder/ubuntu-20.04.3-$arch.tar.gz"
+file="$folder/ubuntu-20.04.4-$arch.tar.gz"
 
 if [ -d "$folder" ];
 
@@ -64,7 +64,7 @@ sleep 1
 
 echo -e "\x1b[33m [ Downloading Ubuntu 20.04 $arch ... ]"
 
-wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/rootfs/ubuntu-20.04.3-$arch.tar.gz
+wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/rootfs/ubuntu-20.04.4-$arch.tar.gz
 
 echo -e "\x1b[33m [ Downloaded ! ]"
 
@@ -72,7 +72,7 @@ sleep 1
 
 echo -e "\x1b[33m [ Unpacking File ... ]"
 
-tar xzf ubuntu-20.04.3-$arch.tar.gz
+tar xzf ubuntu-20.04.4-$arch.tar.gz
 
 echo -e "\x1b[32m [ Unpacked! ]"
 
@@ -118,6 +118,6 @@ echo -e "\x1b[32m [ Installation Completed,You can mount Ubuntu system ]"
 
 echo -e " [ Ubuntu is installed at $folder ]\e[0m"
 
-rm /data/data/com.termux/files/home/ubuntu-20.04/ubuntu-20.04.3-$arch.tar.gz
+rm /data/data/com.termux/files/home/ubuntu-20.04/ubuntu-20.04.4-$arch.tar.gz
 
 sleep 1
