@@ -25,21 +25,6 @@ sh install-ubuntu-20.04
 sh start20
 ```
 ================================
-##### 📀 **INSTALL UBUNTU 21.04 HIRSUTE HIPPO**
-```
-pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start21 && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-21.04 && chmod +x start21 install-ubuntu-21.04
-```
-```
-su
-```
-```
-sh install-ubuntu-21.04
-```
-##### 📲 **START UBUNTU 21**
-```
-sh start21
-```
-================================
 
 ##### **BASIC PACKAGES**
 (git, axel, curl, wget, zip, unzip, p7zip-full, nano, bash, sudo, python3, brotli, libssl-dev, libxml2 libstdc++6)
