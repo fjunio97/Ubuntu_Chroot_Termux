@@ -12,17 +12,17 @@ Thanks [mjuned47](https://github.com/mjuned47) for the scripts
 ================================
 ##### 📀 **INSTALL UBUNTU 20.04 LTS**
 ```
-pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start20 && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu-20.04 && chmod +x start20 install-ubuntu-20.04
+pkg update -y && pkg install wget curl -y && termux-setup-storage && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/start && wget https://github.com/fjunio97/Ubuntu_Chroot_Termux/raw/main/install-ubuntu && chmod +x start install-ubuntu
 ```
 ```
 su
 ```
 ```
-sh install-ubuntu-20.04
+sh install-ubuntu
 ```
 ##### 📲 **START UBUNTU 20**
 ```
-sh start20
+sh start
 ```
 ================================
 
