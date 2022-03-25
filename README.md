@@ -30,7 +30,7 @@ sh start.sh
 (git, axel, curl, wget, zip, unzip, p7zip-full, nano, bash, sudo, python3, brotli, libssl-dev, libxml2 libstdc++6)
 
 ```
-apt-get update -y && apt-get upgrade -y && apt install git-core axel curl wget zip unzip p7zip-full -y && apt install nano bash sudo python3 brotli libssl-dev libxml2 libstdc++6 -y
+apt update -y && apt upgrade -y && apt install git-core axel curl wget zip unzip p7zip-full nano bash sudo python3 brotli libssl-dev libxml2 libstdc++6 -y
 ```
 
 ##### **COMPILATION PACKAGES**
