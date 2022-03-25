@@ -96,9 +96,9 @@ echo -e "\x1b[33m [ Fixing Internet ... ]"
 
 busybox chroot $folder /bin/su - root -c '
 
-echo "nameserver 8.8.8.8" > /etc/resolv.conf
+echo "nameserver 1.1.1.1" > /etc/resolv.conf
 
-echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+echo "nameserver 1.0.0.1" >> /etc/resolv.conf
 
 groupadd -g 3003 aid_inet
 
