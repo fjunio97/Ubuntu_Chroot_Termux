@@ -1,4 +1,4 @@
-## TERMUX UBUNTU CHROOT
+## UBUNTU CHROOT IN TERMUX
 
 Requirements: Termux Fdroid, Root and the Installed Magisk Busybox Module
 
